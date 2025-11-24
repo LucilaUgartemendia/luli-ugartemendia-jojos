@@ -1,0 +1,87 @@
+
+@font-face {
+    font-family: 'MuseoModerno';
+    src: url(./MuseoModerno-VariableFont_wght.ttf);
+}
+/* ID: SOLO UNA COSA LO TIENE */
+#caracteristicas {
+    color: aliceblue;
+    background-color: #EB008B;
+    font-family: 'MuseoModerno';
+    text-align: center;
+    font-weight: 800;
+    word-spacing: 20px;
+    font-size: 39pt;
+}
+/* ANIMACIÓN https://codepen.io/frankeno/pen/QWmmxQb */
+.cursor{
+    position: relative;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 5px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);   
+}
+/* Animation */
+.typewriter-animation {
+  animation: 
+    typewriter 4s steps(50) 0.5s 1 normal both, 
+    blinkingCursor 500ms steps(50) infinite normal;
+}
+
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+@keyframes blinkingCursor{
+  from { border-right-color: rgba(255,255,255,.75); }
+  to { border-right-color: transparent; }
+}
+
+
+
+
+
+/* NO ME FUNCIONAN LOS LINKS SI ACTIVO ESTOOOO __________________________________________________________________________________ */
+/* https://github.com/rayfexdv/pantallaInicial/blob/main/style.css */
+
+/* #mascara{
+    animation: carga 2s forwards ease-in-out;
+}
+
+#mascara{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    background-color: #EB008B; 
+    height: 100vh;
+    width: 100vw;
+
+   
+    mask-image: linear-gradient( #EB008B, #eb0000), url(../imagenes/Estrella\ rosa.svg);
+
+    mask-composite: subtract;
+
+    mask-size: auto, 10px; 
+    mask-position: center, center 50%;
+    mask-repeat: no-repeat;
+}
+
+
+@keyframes carga {
+    0% {
+        mask-size: auto, 10px;
+        opacity: 1;
+    }
+    95% {
+        mask-size: auto, 1000vh;
+        opacity: 1;
+    }
+    100%{
+        mask-size: auto, 1000vh;
+        opacity: 0;
+    }
+} */

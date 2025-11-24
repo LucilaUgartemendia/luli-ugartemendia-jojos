@@ -1,0 +1,76 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: auto;
+    text-align: center;
+}
+
+/* .tarjetaBlanca{
+    background-color: aliceblue;
+    width: 40%;
+    p{
+        width: 50%;
+    }
+} */
+
+.homenaje {
+    font-style: italic;
+    color: #EB008B;
+    text-align: right;
+}
+
+main h2 {
+    background-color: aliceblue;
+    color: #EB008B;
+    padding-left: 45%;
+    /*40% img +3%margin en tarjetas */
+    text-align: left;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+
+
+.cajaTarjetas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7%;
+}
+
+.tarjetas {
+    width: 48%;
+    img {
+        float: left;
+        width: 40%;
+        margin-right: 5%;
+    }
+}
+
+
+.tarjetas2 {
+    img {
+        float: left;
+        width: 19%;
+        margin-right: 4%;
+    }
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+
+/* ID */
+#tituloTarjetas2{
+h2{
+    /*19% img +2%margin en tarjetas */
+    padding-left: 23%;
+}
+}
+
+
+
+
+

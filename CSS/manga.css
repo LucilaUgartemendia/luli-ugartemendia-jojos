@@ -1,0 +1,12 @@
+body{
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        main{
+            flex: auto;
+        }
+
+        img{
+            border-radius: 2%;
+        }

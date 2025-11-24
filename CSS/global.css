@@ -1,0 +1,257 @@
+/* 
+ID
+CLASS
+ETIQUETAS
+HERENCIA
+ 
+
+MARGENES
+1 todos los lados
+2 arribabajo izqder
+3 arriba lados abajo
+4 arriba der abajo izq 
+
+
+padding: x fuera de mi cosa
+gap: espacio entre esas cosas
+
+*/
+* {
+    scroll-behavior: smooth;
+}
+
+
+
+a:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+
+
+
+body {
+    background-color: black;
+    color: aliceblue;
+    font-size: 17pt;
+
+    font-family: "Alegreya";
+}
+
+main {
+    margin: 3% 10% 10%;
+}
+
+header {
+    font-weight: 400;
+    font-size: 20pt;
+    margin: 35PX 10% 0%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    nav {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+a {
+    color: aliceblue;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #EB008B;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    line-height: 5pt;
+    column-gap: 5%;
+
+    padding: 2% 10% 6%;
+
+    img {
+        padding-top: 15%;
+        justify-content: center;
+    }
+}
+
+
+
+p {
+    text-align: justify;
+    hyphens: auto;
+    /* este ayuda de google */
+}
+
+h1 {
+    font-size: 44pt;
+    font-weight: 900;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+/* CLASESSSS */
+.fotoInfo {
+    font-style: italic;
+}
+
+.rosa {
+    color: #EB008B;
+}
+
+.divs {
+    display: inline-block;
+}
+
+
+
+.contenedor {
+    display: flex;
+    column-gap: 5%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 10% 0%;
+
+    img {
+        border-radius: 15px;
+    }
+}
+
+.texto50 {
+    width: 50%;
+}
+
+.texto45 {
+    width: 45%;
+}
+
+.onomatopeya {
+    background-color: #EB008B;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 35pt;
+    writing-mode: vertical-rl;
+    font-weight: 900;
+    font-size: 35pt;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+/*
+PARA DESPUÉSSSSSS
+.imgfija{
+    position: relative;
+    background-image: url(../imagenes/Inicio/todos\ los\ joestars.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+} */
+
+
+
+
+
+
+
+/* CONDICIONALES: AUN MÁS ESPECÍFICOS */
+h1 .rosa {
+    font-style: italic;
+}
+
+main h3 {
+    background-color: #eb008b;
+    color: aliceblue;
+}
+
+h2 {
+    font-size: 30pt;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+
+
+
+/* FORMULARIO */
+form {
+    color: aliceblue;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 48%;
+    color: #EB008B;
+    border-radius: 15PX;
+    border-color: aliceblue;
+    font-weight: bolder;
+}
+.boton{
+    display: inline-block;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+fieldset {
+    width: 0 auto;
+    margin: 2% 1%;
+    /* From https://css.glass */
+    background: rgba(235, 0, 139, 0.5);
+    border-radius: 16px;
+}
+
+label {
+    display: inline-block;
+}
+
+select {
+    color: #EB008B;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: aliceblue;
+    margin-left: 3%;
+}
+
+fieldset ::placeholder {
+    color: #EB008B;
+}
+
+fieldset input,
+fieldset textarea {
+    color: #EB008B;
+    padding-left: 30px;
+    border-radius: 15px;
+    border-color: aliceblue;
+}
+
+fieldset textarea {
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.colform {
+    display: flex;
+    margin-top: 3%;
+
+    input {
+        padding-left: 0px;
+    }
+}

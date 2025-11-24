@@ -1,0 +1,176 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: auto;
+}
+
+main a{
+  font-style: oblique;
+  color: #EB008B;
+}
+
+button {
+    width: 30%;
+    min-width: 200px;
+    background: rgba(255, 255, 255, 0.6);
+    font-size: 80%;
+        height: 30%;
+    margin-right: 5%;
+}
+
+
+.cajaTarjetas {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+ border-radius: 15px;
+    font-size: 25pt;
+padding: 5%;
+    color: aliceblue;
+  font-weight: 800;
+  overflow: hidden;
+  animation: bg 27.5s linear infinite;
+}
+
+.tarjetas {
+  width: 48%;
+   height: 16rem;
+}
+
+
+.dropping-texts {
+  align-items: center;
+  text-align: left;
+}
+
+.dropping-texts>div {
+  opacity: 0;
+  position: absolute;
+}
+
+.dropping-texts>div:nth-child(1) {
+  animation: roll 27.5s linear infinite 0s;
+}
+
+.dropping-texts>div:nth-child(2) {
+  animation: roll 27.5s linear infinite 0.5s;
+}
+
+.dropping-texts>div:nth-child(3) {
+  animation: roll 27.5s linear infinite 4s;
+}
+
+.dropping-texts>div:nth-child(4) {
+  animation: roll 27.5s linear infinite 8s;
+}
+
+.dropping-texts>div:nth-child(5) {
+  animation: roll 27.5s linear infinite 12s;
+}
+
+.dropping-texts>div:nth-child(6) {
+  animation: roll 27.5s linear infinite 16s;
+}
+
+.dropping-texts>div:nth-child(7) {
+  animation: roll 27.5s linear infinite 20s;
+}
+
+.dropping-texts>div:nth-child(8) {
+  animation: roll 27.5s linear infinite 24s;
+}
+
+
+@keyframes roll {
+  5% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
+    transform: rotate(-25deg);
+  }
+
+  7% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+
+  10% {
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  20% {
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  27% {
+    font-size: 0px;
+    opacity: 0.5;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+
+  80% {
+    font-size: 0px;
+      opacity: 0;
+    margin-top: 0px;
+  }
+
+}
+
+
+@keyframes bg {
+  0% {
+    background-color: #EB008B;
+  }
+
+  10% {
+    background-color: #eb0000;
+  }
+
+  20% {
+    background-color: #EB008B;
+  }
+
+  30% {
+    background-color: #eb0000;
+  }
+
+  40% {
+    background-color: #EB008B;
+  }
+
+  50% {
+    background-color: #eb0000;
+  }
+
+  60% {
+    background-color: #EB008B;
+  }
+
+  70% {
+    background-color: #eb0000;
+  }
+
+  80% {
+    background-color: #EB008B;
+  }
+
+  90% {
+    background-color: #eb0000;
+  }
+
+  100% {
+    background-color: #EB008B;
+  }
+}

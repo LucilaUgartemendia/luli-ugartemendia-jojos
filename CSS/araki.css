@@ -1,0 +1,46 @@
+
+        
+main h1 {
+    background-color: #EB008B;
+    color: aliceblue;
+    margin-bottom: 4%;
+    margin-top: 15%;
+}
+
+main h2 {
+    background-color: aliceblue;
+    color: #EB008B;
+    padding-left: 45%;
+    /*40% img +3%margin en tarjetas */
+    text-align: left;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+
+
+.cajaTarjetas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7%;
+}
+
+.tarjetas {
+    width: 48%;
+}
+
+
+
+
+.onomatopeya {
+    background-color: #EB008B;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 35pt;
+    writing-mode: vertical-rl;
+    font-weight: 900;
+    font-size: 35pt;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
