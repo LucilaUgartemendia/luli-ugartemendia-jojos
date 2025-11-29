@@ -33,7 +33,7 @@ a:hover {
 
 
 body {
-    background-color: black;
+    background-color: aqua;
     color: aliceblue;
     font-size: 17pt;
 
@@ -41,7 +41,7 @@ body {
 }
 
 main {
-    margin: 3% 10% 10%;
+    margin: 3% 10% 3%;
 }
 
 header {
