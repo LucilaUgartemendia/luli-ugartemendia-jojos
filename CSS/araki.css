@@ -1,10 +1,13 @@
-
-        
 main h1 {
     background-color: #EB008B;
     color: aliceblue;
-    margin-bottom: 4%;
-    margin-top: 15%;
+    width: 70%;
+    margin-bottom: -7%;
+    margin-left: 30%;
+}
+
+main {
+    margin-top: 6%;
 }
 
 main h2 {
@@ -17,7 +20,9 @@ main h2 {
     font-size: xx-large;
 }
 
-
+.espacio {
+    margin-top: 7%;
+}
 
 .cajaTarjetas {
     display: flex;
@@ -27,20 +32,19 @@ main h2 {
 
 .tarjetas {
     width: 48%;
+
+    img {
+        margin-top: -4%;
+    }
 }
 
-
-
+.araki {
+    margin-left: 20%;
+}
 
 .onomatopeya {
-    background-color: #EB008B;
+    padding-top: -5%;
+    padding-bottom: -3%;
     display: flex;
-    justify-content: space-around;
-    letter-spacing: 35pt;
-    writing-mode: vertical-rl;
-    font-weight: 900;
-    font-size: 35pt;
-    margin: 0 auto;
-    padding-top: 3%;
-    padding-bottom: 2%;
+
 }

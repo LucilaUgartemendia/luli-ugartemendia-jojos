@@ -6,40 +6,103 @@ body {
 
 main {
   flex: auto;
+  margin-top: 5%;
 }
 
-main a{
-  font-style: oblique;
-  color: #EB008B;
-}
+/* :popover-open{
+} */
 
 button {
-    width: 30%;
-    min-width: 200px;
-    background: rgba(255, 255, 255, 0.6);
-    font-size: 80%;
-        height: 30%;
-    margin-right: 5%;
+  width: 30%;
+  min-width: 200px;
+  background: rgba(255, 255, 255, 0.6);
+  font-size: 80%;
+  height: 30%;
 }
 
+.buttonNone {
+  height: 2%;
+  font-family: "Alegreya";
+  font-style: italic;
+  word-spacing: 7pt;
+  font-size: 17pt;
+  background: none;
+  border-color: rgb(255, 255, 255, 0);
+  width: 0 auto;
+  float: right;
+}
+
+.cajaTarjetasColor {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  border-radius: 15px;
+  font-size: 25pt;
+  color: aliceblue;
+  font-weight: 800;
+}
 
 .cajaTarjetas {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 3%;
- border-radius: 15px;
-    font-size: 25pt;
-padding: 5%;
-    color: aliceblue;
-  font-weight: 800;
+}
+
+
+.tarjetasColor {
+  width: 48%;
+  height: 16rem;
+  border-radius: 15PX;
   overflow: hidden;
   animation: bg 27.5s linear infinite;
+
+  div {
+    padding-left: 50px;
+  }
+
+  h2 {
+    padding-left: 50px;
+  }
+
+  a {
+    padding-left: 50px;
+    display: inline-flexbox;
+  }
 }
 
 .tarjetas {
   width: 48%;
-   height: 16rem;
+  height: 16rem;
+  overflow: hidden;
+
+  iframe {
+    border-radius: 15px;
+    display: block;
+    aspect-ratio: 16/9;
+    width: clamp(300px, 100%, 700px);
+  }
 }
+
+
+#trailer {
+ left: 33%;
+ top: 30%;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15PX;
+  text-align: right;
+  border-color: aliceblue;
+  padding: 0%;
+}
+
+#trailer2 {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15PX;
+  text-align: right;
+  border-color: aliceblue;
+  padding: 0%;
+}
+
 
 
 .dropping-texts {
@@ -122,7 +185,7 @@ padding: 5%;
 
   80% {
     font-size: 0px;
-      opacity: 0;
+    opacity: 0;
     margin-top: 0px;
   }
 

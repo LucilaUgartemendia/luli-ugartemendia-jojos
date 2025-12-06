@@ -31,8 +31,8 @@
 
     <!-- CONTENIDO -->
     <main>
-        <article class="cajaTarjetas">
-            <div class="dropping-texts" class="tarjetas">
+        <article class="cajaTarjetasColor">
+            <div class="dropping-texts tarjetasColor">
                 <h2>PARTES ANIMADAS</h2>
                 <div>Phantom Blood</div>
                 <div>Battle Tendency</div>
@@ -42,7 +42,7 @@
                 <div>Stone Ocean</div>
                 <div>Steel Ball Run (2026)</div>
             </div>
-            <div class="tarjetas">
+            <div class="tarjetasColor">
                 <h2>COMENZAR A VER EL ANIME</h2>
                 <a href="https://www.netflix.com/search?q=jojo&jbv=80179831"
                     target="_blank"><button>Netflix</button></a>
@@ -50,14 +50,30 @@
                     <button>Crunchyroll</button> </a>
             </div>
         </article>
-        <p><strong>NOTICIAS</strong></p>
-<p>La parte 7, Steel Ball Run será animada en 2026 <a target="_blank" href="https://www.youtube.com/watch?v=wCE6cJ7A9C0">link 1°trailer</a> y <a target="_blank" href="https://www.youtube.com/watch?v=9z63PrbLFgg">link 2°trailer</a></p> 
 
-<p>youtube se puso la gorra, después lo pirateo para que se vea una ventana</p>
-<iframe src="https://www.youtube.com/watch?v=wCE6cJ7A9C0" frameborder="1%"></iframe>
-<iframe src="https://www.youtube.com/watch?v=9z63PrbLFgg" frameborder="1%"></iframe>
-<iframe src="https://www.youtube.com/watch?v=UIwBcXV29aA" frameborder="1%"></iframe>
 
+        <article class="cajaTarjetas">
+            <div class="tarjetas">
+                    <p><strong>NOTICIAS</strong></p>
+                    <p>La parte 7, Steel Ball Run será animada en 2026 <span><button popovertarget="trailer"
+                                class="buttonNone"> <em>ver 1° trailer</em></button></span></p>
+                    <button popovertarget="trailer2" class="buttonNone"> <em>ver 2° trailer</em></button>
+            </div>
+
+
+            <div class="tarjetas" popover id="trailer">
+                <iframe  height="315" src="https://www.youtube.com/embed/wCE6cJ7A9C0?si=15su5czYjnu6PNAT"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="tarjetas" popover id="trailer2">
+                <iframe height="315" src="https://www.youtube.com/embed/9z63PrbLFgg?si=STlO0x6W00xpBlil"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </article>
     </main>
 
 

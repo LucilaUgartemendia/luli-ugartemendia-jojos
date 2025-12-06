@@ -4,18 +4,14 @@ body {
     flex-direction: column;
 }
 
+h1{
+    margin-top: 0%;
+}
+
 main {
     flex: auto;
     text-align: center;
 }
-
-/* .tarjetaBlanca{
-    background-color: aliceblue;
-    width: 40%;
-    p{
-        width: 50%;
-    }
-} */
 
 .homenaje {
     font-style: italic;
@@ -47,6 +43,10 @@ main h2 {
         float: left;
         width: 40%;
         margin-right: 5%;
+    }
+
+    iframe{
+        margin-bottom: -5%;
     }
 }
 

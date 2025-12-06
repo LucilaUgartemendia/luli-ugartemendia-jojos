@@ -33,7 +33,7 @@ a:hover {
 
 
 body {
-    background-color:black;
+    background-color: black;
     color: aliceblue;
     font-size: 17pt;
 
@@ -41,7 +41,7 @@ body {
 }
 
 main {
-    margin: 3% 10% 3%;
+    margin: 3% 10% 10%;
 }
 
 header {
@@ -115,6 +115,9 @@ h1 {
 }
 
 
+img {
+    border-radius: 15px;
+}
 
 .contenedor {
     display: flex;
@@ -123,10 +126,6 @@ h1 {
     align-items: flex-start;
     justify-content: space-between;
     margin: 10% 0%;
-
-    img {
-        border-radius: 15px;
-    }
 }
 
 .texto50 {
@@ -202,7 +201,8 @@ button {
     border-color: aliceblue;
     font-weight: bolder;
 }
-.boton{
+
+.boton {
     display: inline-block;
     width: 100%;
     display: inline-flex;
