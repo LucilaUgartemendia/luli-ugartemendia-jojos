@@ -84,8 +84,8 @@ button {
 
 
 #trailer {
- left: 33%;
- top: 30%;
+  left: 33%;
+  top: 42%;
   width: fit-content;
   height: fit-content;
   border-radius: 15PX;
@@ -95,6 +95,8 @@ button {
 }
 
 #trailer2 {
+  left: 33%;
+  top: 42%;
   width: fit-content;
   height: fit-content;
   border-radius: 15PX;
