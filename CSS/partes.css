@@ -4,7 +4,7 @@ body {
     flex-direction: column;
 }
 
-h1{
+h1 {
     margin-top: 0%;
 }
 
@@ -39,13 +39,14 @@ main h2 {
 
 .tarjetas {
     width: 48%;
+
     img {
         float: left;
         width: 40%;
         margin-right: 5%;
     }
 
-    iframe{
+    iframe {
         margin-bottom: -5%;
     }
 }
@@ -57,20 +58,16 @@ main h2 {
         width: 19%;
         margin-right: 4%;
     }
+
     margin-bottom: 10%;
     margin-top: 10%;
 }
 
 
 /* ID */
-#tituloTarjetas2{
-h2{
-    /*19% img +2%margin en tarjetas */
-    padding-left: 23%;
+#tituloTarjetas2 {
+    h2 {
+        /*19% img +2%margin en tarjetas */
+        padding-left: 23%;
+    }
 }
-}
-
-
-
-
-

@@ -59,26 +59,26 @@
 
 /* https://github.com/rayfexdv/pantallaInicial/blob/main/style.css */
 
-#mascara{
+#mascara {
     animation: carga 2s forwards ease-in-out;
 }
 
-#mascara{
-    position: fixed; 
+#mascara {
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
 
-    background-color: #EB008B; 
+    background-color: #EB008B;
     height: 100vh;
     width: 100vw;
 
-   
-    mask-image: linear-gradient( #EB008B, #eb0000), url(../imagenes/Estrella\ rosa.svg);
+
+    mask-image: linear-gradient(#EB008B, #eb0000), url(../imagenes/Estrella\ rosa.svg);
 
     mask-composite: subtract;
 
-    mask-size: auto, 10px; 
+    mask-size: auto, 10px;
     mask-position: center, center 50%;
     mask-repeat: no-repeat;
 }
@@ -89,13 +89,15 @@
         mask-size: auto, 10px;
         opacity: 1;
     }
+
     95% {
         mask-size: auto, 1000vh;
         opacity: 1;
     }
-    100%{
+
+    100% {
         mask-size: auto, 1000vh;
         opacity: 0;
-         z-index: -1;
+        z-index: -1;
     }
-} 
+}

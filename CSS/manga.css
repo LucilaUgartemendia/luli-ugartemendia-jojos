@@ -8,10 +8,6 @@ main {
     flex: auto;
 }
 
-/* 
-.imgMedio {
-    margin: 2% 15%;
-} */
 .contenedor {
     align-items: center;
     justify-content: space-evenly;
@@ -21,7 +17,9 @@ main {
 
 .cajaGrid {
     width: 100%;
+    height: 100%;
     margin-top: 13%;
+    margin-bottom: 20%;
     display: grid;
     aspect-ratio: 4 / 5;
     justify-items: center;
@@ -35,7 +33,7 @@ main {
         "johnny giorno jodio dio"
         "johnny josuke8 jodio dio"
         "todos todos todos todos";
-    gap: 32px;
+    gap: 3%;
 
 }
 
@@ -46,7 +44,10 @@ main {
 .item {
     cursor: pointer;
     display: block;
-    position: relative; /* necesario para que el texto se ubique encima */
+    position: relative;
+    /* necesario para que el texto se ubique encima */
+    width: 100%;
+    height: 100%;
 }
 
 .item input {
@@ -55,6 +56,7 @@ main {
 
 .item img {
     width: 100%;
+    height: 100%;
     transition: .3s;
 }
 
@@ -66,22 +68,24 @@ main {
     text-align: center;
     transform: translateX(-50%);
     font-weight: bold;
-    opacity: 0;           /* oculto por defecto */
+    opacity: 0;
+    /* oculto por defecto */
     transition: .3s;
-    pointer-events: none; /* para que no bloquee el click */
+    pointer-events: none;
+    /* para que no bloquee el click */
 }
 
 /* Cuando está clickeado: imagen rosa */
-.item input:checked + img {
-    filter: brightness(0) saturate(100%) invert(17%) sepia(93%) saturate(7124%)
-            hue-rotate(316deg) brightness(97%) contrast(107%);
-            
+.item input:checked+img {
+    filter: brightness(0) saturate(100%) invert(17%) sepia(93%) saturate(7124%) hue-rotate(316deg) brightness(97%) contrast(107%);
+
 }
 
 /* Cuando está clickeado: texto visible */
-.item input:checked + img + .texto {
+.item input:checked+img+.texto {
     opacity: 1;
 }
+
 /*------------------------------------------ HASTA ACÁ CHAT GPT ----------------------------------------------*/
 
 
@@ -129,7 +133,7 @@ main {
 #josuke8 {
     grid-area: josuke8;
     cursor: help;
-    padding-top: 24%;
+    /*     padding-top: 24.5%; */
 }
 
 #jodio {
@@ -147,4 +151,5 @@ main {
 
 #todos {
     grid-area: todos;
+
 }
